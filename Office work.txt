@@ -23,3 +23,4 @@ Pdf Excel UI Using BootStrap:(5-1-24)
 =====================================================================================================================================================================
 GIT: Global Information Tracker..is widely used software for source code management. it is used to track changes,collaborate with others developers,
 for source code storing, 
+>> .git hidden folder will generate after executing git init command. this folder will contain the configuration of our git repository url
