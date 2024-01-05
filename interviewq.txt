@@ -1,0 +1,113 @@
+Theory Questions
+=====================
+
+>>>>>>>   Core JAVA    <<<<<<<
+
+ 
+Basic introduction:
+---------------------
+1)What is java?
+2)Features of java?
+3)JDK vs JRE vs JVM?
+4)What is Garbage collector and how many ways we can call garbage collector?
+5)Types of classloaders in java?
+6)What is Identifier with example?
+7)Can we execute java program without main method?
+8)Explain main method?
+
+OOPS
+=====
+1)What is class?
+2)What is object?
+3)What is Abstraction?
+4)What is Encapsulation?
+5)What is polymorphism?
+6)What is inheritance?
+7)Method overloading vs method overriding?
+8)Why java does not support multiple inheritance?
+9)Difference between interface and abstract class?
+10)What is constructor?
+11)What is inner class?
+12)What is enum?
+13)Types of objects in java?
+14)StringBuffer vs StringBuilder?
+
+exception handling
+-------------------
+1)Exception vs Error ?
+2)Difference between final , finally and finalized method?
+
+
+Collections
+------------
+1)What is Collection?
+2)List vs Set vs Map?
+3)ArrayList vs Vector?
+4)ArrayList vs LinkedList?
+5)HashSet vs LinkedHashSet?
+6)HashSet vs TreeSet?
+7)HashMap vs LinkedHashMap?
+8)HashMap vs TreeMap?
+9)What is Hashtable?
+10)Types of cursors in java?
+
+Multi-threading
+-----------
+1)Thread vs process?
+2)What is multithreading?
+3)In how many ways we can create a thread in java?
+4)What is synchronization?
+5)What is deadlock in java?
+6)Inter-thread communciation?
+7)What is daemon thread in java?
+
+java 1.8 features
+-------------------
+1)What is functional interface?
+2)What is marker interface?
+3)What is stream API?
+4)What is lamda expression?
+
+
+>>>>>>>   JDBC   <<<<<<<
+
+1) What is jdbc?
+2) Types of drivers in jdbc?
+3) what is DatabaseMetaData?
+4) What is ResultSetMetaData?
+5) Types of Statement objects?
+6) Types of ResultSet objects?
+7) Types of Connection objects?
+8) What is batch processing?
+9) Steps to develop JDBC application
+
+>>>>>>>   Servlets   <<<<<<<
+
+1) What is servlet?
+2) What is web container ?
+3) what is web server ?
+4) What is servlet filter?
+5) What is ServletConfig object?
+6) What is ServletContext object?
+7) What is session tracking and it's techniques?
+8) Types of doXxx() methods in servlets ?
+9) Life cycle methods of servlets?
+10)What is load-on-startup?
+
+>>>>>>>   JSP   <<<<<<<
+
+1)Servlets vs jsp?
+2)Types of implicit objects in jsp?
+3)Explain JSP tags?
+4)Phases in jsp?
+5)MVC in jsp?
+
+
+>>>>>>>   spring boot   <<<<<<<
+
+1)What is spring boot?
+2)Advantages of spring boot?
+3)explain spring boot flow architecture?
+4)List out some stereo type annotations?
+5)List out some rest annotation?
+6)Components of spring boot?

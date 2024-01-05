@@ -1,0 +1,136 @@
+==============
+11-May-2023
+==============
+
+1) Singleton Design Pattern
+
+2) How HashMap works internally
+
+3) Fail safe and fail fast collections
+
+4) What is Constructor Chaining
+
+5) What are the methods available in Object class?
+
+6) How many ways we can create Object for class in java ?
+
+==============
+12-May-2023
+==============
+
+7) What is Cloning and why we need it ?
+
+8) String vs StringBuffer vs StringBuilder
+
+9) What is Exception Hierarchy in Java ?
+
+10) What is Serialization and De-Serialization ?
+
+11) What is transient keyword in java ?
+
+12) Diff between Comparable and Comparator?
+===============
+13-May-2023
+==============
+
+13) How many ways we can create Thread in java ?
+
+14) Runnable vs Callable in Java
+
+15) What is Executor Framework in Java
+
+16) What is the contract between hashCode ( ) & equals ( ) methods
+
+17) Checked Vs Unchecked exception
+
+18) What is try-with-resources in java
+
+19) What are concurrent collections in java ?
+
+20) Difference between Interfaces & Abstract classes
+
+============
+17-May-2023
+============
+
+21) What is Shallow Cloning & Deep Cloning ?
+
+22) What is the diff between filter ( ) and map ( ) methods in Stream API?
+
+23) What is the purpose of User Defined Exceptions ?
+
+24) What is Factory Design Pattern ?
+
+25) What is diff between ConcurrentHashMap and HashMap ?
+
+26) What is Weak Hash Map in Java ?
+
+27) How to read File Data using Java 8?
+
+28) Program to generate Random Text using Java 
+
+29) Program to generate OTP using Java
+
+30) Program to check String contains only alphabets or not
+
+============
+18-May-2023
+============
+
+31) What are the rules for Method Overrinding ?
+
+32) What are variable arguments in Java ?
+
+33) How to increase heap size while running java program ?
+
+34) What are Generics in java ?
+
+35) What is Auto Boxing and Auto Un-boxing ?
+
+36) How to catch multiple exceptions using single catch block ?
+
+37) What is StringJoiner class ?
+
+38) What is SplIterator ?
+
+39) Can we declare method as abstract and final ?
+
+40) How to create user defined Immutable classes in Java ?
+
+============
+19-May-2023
+============
+
+41) How to sort 0's and 1's in given array
+
+		Input : {1,0,1,0,0,1,1}
+		Output : {0,0,0,1,1,1,1}
+
+42) How to filter employees based on given salary using stream api?
+
+43) What is the difference between Lambda Expression & Method References
+
+44) What is the use of default and static methods in interface
+
+45) What is Optional class in java 8 ?
+
+46) What is CompletableFuture in Java ?
+
+============
+23-May-2023
+============
+
+46) What are the class loaders available in Java ?
+
+47) What is Thread Local class ?
+
+48) Can we overload main ( ) method in java class ?
+
+49) Can we run java program without main ( ) method ?
+
+50) What are SOLID oops principles ?
+
+51) What is Polymorphism explain with example ?
+
+52) What is Encapsulation with Example ?
+------------------------------------------------------------------------------------------

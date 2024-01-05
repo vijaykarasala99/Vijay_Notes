@@ -1,0 +1,12 @@
+netstat -ano | findstr :8080
+
+taskkill /PID 6436 /F
+
+
+H2 Dependency:
+===============
+
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+        </dependency>

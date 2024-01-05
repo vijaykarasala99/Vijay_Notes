@@ -1,0 +1,25 @@
+GET vs POST:
+> in post request parameters not stored in browser history
+> in get req parameters stored in browser history
+> in get req data visible in URL
+> in post req data not displayed in URL
+============================================================
+Tomcat Embed Jasper:(4-1-24)
+
+<dependency>
+    <groupId>org.apache.tomcat.embed</groupId>
+    <artifactId>tomcat-embed-jasper</artifactId>
+</dependency>
+
+this dependency provides support for . jsp file rendering.
+============================================================
+
+To Install New Software In STS:
+goto: help> Eclipse Market Place> search> install> accept Policies> Restart STS
+>>> we can update already installed softwares also
+
+============================================================
+Pdf Excel UI Using BootStrap:(5-1-24)
+=====================================================================================================================================================================
+GIT: Global Information Tracker..is widely used software for source code management. it is used to track changes,collaborate with others developers,
+for source code storing, 
