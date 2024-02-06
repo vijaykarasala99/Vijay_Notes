@@ -1,0 +1,17 @@
+   {
+    "fname": "John",
+    "lname": "Doe",
+    "familyname": "Doe Family",
+    "dob": "1990-01-01",
+    "time": "1990-01-01T12:30:45.678",
+    "gender": "Male",
+    "mobileno": 1234567890,
+    "email": "harsha@gmail.com",
+    "pwd": "789",
+    "placeofbirth": "hyd",
+    "age":15,
+    "address": "MainStreet",
+    "profession": "Developer",
+    "martialstatus": "Single",
+    "disability": "dumb"
+}

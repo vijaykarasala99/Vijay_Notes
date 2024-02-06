@@ -1,13 +1,16 @@
 thanks for giving me this wonderful oppurtinity to introduce my self
 
-im vijay..im from gnt..i done my btech with 75%..along with my graduation i have completed real time training on java full stack developement..i have good knowledge in frontend backend and database...
+im vijay..im from gnt..i done my btech with 85%..along with my graduation i have completed real time training on java full stack developement..i have good knowledge in frontend backend and database...
 
 And i have developed three mini and one major project and deployed those projects in my github repositories...
+
+
 projects---
 IES
 Reports
 Blog
 Frontoffice Team Portal
+
 
 coming to my strengths
 {im a quicklearner,flexible,selfmotivated,i never lose my hope}

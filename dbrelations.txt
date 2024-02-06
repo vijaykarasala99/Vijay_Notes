@@ -1,0 +1,11 @@
+@OneToMany(mappedBy ="user", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	@JsonIgnore
+	private List<StudentEnqEntity> enquiries;
+
+=============================================================
+
+@ManyToOne
+	@JoinColumn(name="user_id")
+	private UserDtlsEntity user;
+
+=============================================================
