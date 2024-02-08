@@ -100,6 +100,94 @@ useState : useState is React Hook that allows you to add state to a functional c
    ex:  <h2>{state}</h2>
         <button onClick={handleData}> UPDATE </button>
 
+==================================================================================================================================
+useEffect:
+
+>>first we need to import
+    ex: import { useState,useEffect } from "react";
+
+>>next we need to write this in function
+    ex: const[data,setData]=useState([])
+          useEffect(()=>{
+          fetch('https://fakestoreapi.com/products')
+          .then(response=>response.json())
+          .then(value=>setData(value))
+       },[])
+ 
+
+>>next we need to write this in return
+  ex:  {data.map((list)=>{
+       return(
+        <>
+        <li>{list.title}</li>
+        <li>{list.price}</li>
+        <img src={list.image} alt="vijay"/>
+        </>
+         )
+        }
+       )}
+
+============================================================================================
+Props: Props Used To send data from one component to another component
+        
+        in App.js File
+        ex: function App(props){
+            
+            return(
+                  <div className="App" style{{fontFamily:"verdana"}}>
+                  <h1>{props.name}</h1>
+                  </div>
+                  );     
+            }
+           export default App;
+
+         in index.html file
+          ex: import React from 'react';
+              import ReactDOM from 'react-dom/client';
+              import App from './App';
+
+              const root = ReactDOM.createRoot(document.getElementById('root'));
+              root.render(
+              <React.StrictMode>
+
+              <App name="vijay"/>
+    
+             </React.StrictMode> 
+             );
+=========================================================================================================================================================
+Axios: to send data from UI to Database axios used, Axios, which is a popular library is mainly used to send asynchronous HTTP requests to REST endpoints.
+       first we need to install ex:  npm install axios
+     
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
