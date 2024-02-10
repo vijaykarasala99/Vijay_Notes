@@ -9,7 +9,7 @@ Installation: first we need to create a folder..and goto folder location open cm
 Integrate Bootstrap In React:
 ==============================
 >> goto getbootstrap.com and copy include via CDN Links(two links) and place those links in public folder index.html file's
-   header section...and type in terminal 
+   header section...and type in terminal
     >> npm install bootstrap
 
 LINKS To Integrate Bootstrap:
@@ -157,49 +157,7 @@ Props: Props Used To send data from one component to another component
 =========================================================================================================================================================
 Axios: to send data from UI to Database axios used, Axios, which is a popular library is mainly used to send asynchronous HTTP requests to REST endpoints.
        first we need to install ex:  npm install axios
-     
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
 
 
 
