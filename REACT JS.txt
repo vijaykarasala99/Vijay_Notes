@@ -71,7 +71,7 @@ After that define path like this:
      </BrowserRouter>
 
 Note: but in above code we need to give path on url but i dont want to give path manually so we have to use link
-Ex:   <BrowserRouter>
+Ex:  <BrowserRouter>
      <Routes>
       <Route path="/nav" element={<Navbar/>}/>
       <Route path="/card" element={<Cards/>}/>
@@ -80,9 +80,8 @@ Ex:   <BrowserRouter>
      <Link to='/card'>Go To Card </Link>
      </BrowserRouter>
 
-=============================================================================================================================
-useState : useState is React Hook that allows you to add state to a functional component. It returns an array with two values
-           the current state and a function to update it.
+=======================================================================================================================
+useState : useState is React Hook that allows you to add state to a functional component. It returns an array with two values ,the current state and a function to update it.
         >> The Hook takes an initial state value as an argument and returns an updated state
         >>Benefits of useState:  No need to write a constructor just to initialize state
 
