@@ -158,5 +158,12 @@ Axios: to send data from UI to Database axios used, Axios, which is a popular li
        first we need to install ex:  npm install axios
    
 
+====================================================================
+Some Front End Tricks:
+1)To change color of whole background:
 
+let color=prompt("SELECT THEME");
+document.body.style.background=color;
+
+2)
 
