@@ -15,3 +15,14 @@
     "martialstatus": "Single",
     "disability": "dumb"
 }
+=============================================
+to give list of properties in postman:
+{
+
+ "items": [
+        {"breakfast": "Dosa", "b_price": 5.99},
+        {"breakfast": "Upma", "b_price": 4.99},
+        {"breakfast": "Idli", "b_price": 3.99}
+    ]
+
+}

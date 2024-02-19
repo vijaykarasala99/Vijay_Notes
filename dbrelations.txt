@@ -8,4 +8,36 @@
 	@JoinColumn(name="user_id")
 	private UserDtlsEntity user;
 
-=============================================================
+======================================================================================
+CRUD Repository & JPA Repository Provided Predefined methods To Performs DB Operations
+CRUD Repo : provided methods to perform only crud operations
+JPA Repo:   provided methods to perform crud + pagination + sorting operations
+=======================================================================================
+19-02-2024
+-----------
+Unidirectional One To Many:
+                            @OneToMany(cascade = CascadeType.ALL)
+	                    @JoinColumn(name="cid_fk",referencedColumnName = "cid")
+	                    private List<ItemEntity> items;
+
+json data to give in postman:
+
+{
+    "name": "Doe",
+    "items": [
+        {
+            "itemName": "Dosa",
+            "price": 5.99
+        },
+        {
+            "itemName": "Idli",
+            "price": 4.99
+        },
+        {
+            "itemName": "Vada",
+            "price": 3.99
+        }
+    ]
+}
+-----------------------------------------------------------------------------------------------
+
