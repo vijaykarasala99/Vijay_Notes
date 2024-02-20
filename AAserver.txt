@@ -1,3 +1,6 @@
+If You Are Facing 8080 port already in use error?
+Vijay's Solution is below:
+
 netstat -ano | findstr :8080
 
 taskkill /PID 6436 /F
