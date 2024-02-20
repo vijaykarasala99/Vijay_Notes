@@ -16,6 +16,7 @@ JPA Repo:   provided methods to perform crud + pagination + sorting operations
 19-02-2024
 -----------
 Unidirectional One To Many:
+                            //one user can have many items
                             @OneToMany(cascade = CascadeType.ALL)
 	                    @JoinColumn(name="cid_fk",referencedColumnName = "cid")
 	                    private List<ItemEntity> items;
@@ -40,4 +41,34 @@ json data to give in postman:
     ]
 }
 -----------------------------------------------------------------------------------------------
+20-02-2021
+-----------
+Many To One Unidirectional:
+
+ 
+     @ManyToOne(cascade = CascadeType.ALL)
+     @JoinColumn(name = "cid")
+     private CustomerEntity customer;
+	
+
+
+json data to give in postman:
+============================
+
+[
+    {
+        "itemName": "Item 1",
+        "price":20.22,
+        "customer": {
+            "cid": 1
+        }
+    },
+    {
+        "itemName": "Item 2",
+         "price":33.02,
+        "customer": {
+            "cid": 1
+        }
+    }
+]
 
