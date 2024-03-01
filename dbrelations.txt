@@ -71,4 +71,30 @@ json data to give in postman:
         }
     }
 ]
+------------------------------------------------------------------------------------------------
+22-02-2024
+----------
+one to many bi-directional: 'mappedby' attribute tells it is bidirectional
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
