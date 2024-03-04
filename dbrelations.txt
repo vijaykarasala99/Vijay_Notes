@@ -81,6 +81,17 @@ one to many bi-directional: 'mappedby' attribute tells it is bidirectional
 
 
 
+04-3-2024
+----------
+
+@NamedQuery is used to define static named queries within entity classes, while
+
+@Query is used to define dynamic queries directly in repository interfaces or methods.
+
+
+
+
+
 
 
 
