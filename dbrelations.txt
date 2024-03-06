@@ -72,14 +72,6 @@ json data to give in postman:
     }
 ]
 ------------------------------------------------------------------------------------------------
-22-02-2024
-----------
-one to many bi-directional: 'mappedby' attribute tells it is bidirectional
- 
-
-
-
-
 
 04-3-2024
 ----------
@@ -89,11 +81,54 @@ one to many bi-directional: 'mappedby' attribute tells it is bidirectional
 @Query is used to define dynamic queries directly in repository interfaces or methods.
 
 
+6-03-2024
+==========
+CustomerEntity:
+---------------
+From Customer Side(one customer can have many items) POST(localhost:1111/customer/1/items)
+Note: we are passing one by one item to save
+
+// one to many bi-directional
+	@OneToMany(cascade = CascadeType.ALL,mappedBy = "customer")
+	//@JsonIgnore
+        private List<ItemEntity> items;
+
+Json Data:
+           {
+             "itemName": "Item 3",
+             "price": 20.99
+          }
+
+--------------------------------------------------------------------------------------------
+ItemsEntity:
+------------
+       //many to one bi-directional
+	@ManyToOne
+	@JoinColumn(name="customer_id")
+	@JsonIgnore
+	private CustomerEntity customer;
 
 
+From Items Side: Note: i have given list of items at a time
 
+Json For Many To One(Many Items Can Have One Customer) POST(url:localhost:1111/items/save/1)
+====================================================== --------------------------------------
+[
+  {
+    "itemName": "Item 1",
+    "price": 10.99
+  },
+  {
+    "itemName": "Item 2",
+    "price": 15.99
+  },
+  {
+    "itemName": "Item 3",
+    "price": 20.99
+  }
+]
 
-
+-------------------------------------------------------------------------------------------
 
 
 
