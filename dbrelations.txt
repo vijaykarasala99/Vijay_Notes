@@ -93,11 +93,33 @@ Note: we are passing one by one item to save
 	//@JsonIgnore
         private List<ItemEntity> items;
 
-Json Data:
+Json Data:To add items one by one to one customer 
+
            {
              "itemName": "Item 3",
              "price": 20.99
           }
+
+Json Data: To Add Many Items To One Customer
+POST(localhost:1111/customer/1/many)
+
+[
+  {
+    "itemId": 4,
+    "itemName": "Product 1",
+    "price": 25.99
+  },
+  {
+    "itemId": 5,
+    "itemName": "Product 2",
+    "price": 39.99
+  },
+  {
+    "itemId": 6,
+    "itemName": "Product 3",
+    "price": 49.99
+  }
+]
 
 --------------------------------------------------------------------------------------------
 ItemsEntity:
