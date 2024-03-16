@@ -1,10 +1,25 @@
 REACT JS
 ==========
+first check node version and type: npm install create-react-app
+
 Installation: first we need to create a folder..and goto folder location open cmd type >>> npx create-react-app vijay
 >>> next add folder to VS Code and delete unused files(except App.js, index.js, .gitignore, package-lock.json, package.json, README.md)
 >>> next remove import logo stmts in App.js, remove header part also
 >>> next in index.js remove unused (except import React from react, ReactDOM, App From ./App)
 >>> next open new terminal and point to >>> cd vijay  >>> npm start
+
+Folder Structure:
+-----------------
+.gitignore: when you uploading your react project into github if you dont want to upload particular files then you can give that file name in gitignore file below dependencies so that file will not uploaded.
+ ex:    # dependencies
+        /node_modules
+        /.pnp
+        .pnp.js
+
+package-lock.json: the entire urls, resources, integrated files
+package.josn:      the entire dependencies details ad versions
+README.md:  the details of projects we can write so that others can read it
+
 
 Integrate Bootstrap In React:
 ==============================
@@ -164,6 +179,52 @@ Some Front End Tricks:
 
 let color=prompt("SELECT THEME");
 document.body.style.background=color;
+===================================================================
 
-2)
+REACT INTERVIEW QNS:
+====================
+
+How to check reactjs version in React?
+A:   npm list react
+                       (or)
+You can check the version of React.js that you are using in your project by looking at the package.json file 
+in your project directory
+-------------------------------------------------------------------------------------------------------------
+>ReactJs is a javascript library that is used for building user interfaces in a declarative and effecient way
+> React is used to build single-page applications.
+  React allows us to create reusable UI components.
+
+>It is a component-based front-end library responsible only for the view layer of an MVC (Model View Controller) architecture.
+
+> JSX stands for JavaScript XML.
+  JSX allows us to write HTML in React.
+  JSX makes it easier to write and add HTML in React.
+
+>Components are independent and reusable blocks of code.
+
+>Props(Properties) are used to pass data from one component to another.
+ The state is local data storage that is local to the component only and cannot be passed to other components.
+
+>React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application
+
+>Hooks are a new addition in React 16.8. hooks let you use state and other React features without writing a class.
+
+>useState is used to manage state within a component, allowing you to store and update data.
+ 
+>useEffect is used to perform side effects in a component, such as updating the document title, fetching data, or subscribing to events.
+ 
+-----------------------------------======= REACT-LIFE-CYCLE =======-------------------------------------------------
+*Each component in React has a lifecycle which you can monitor and manipulate during its three main phases.
+*The three phases are: Mounting, Updating, and Unmounting.
+*Mounting means putting elements into the DOM.
+*The next phase in the lifecycle is when a component is updated.
+ *A component is updated whenever there is a change in the component's state or props.
+*The next phase in the lifecycle is when a component is removed from the DOM, or unmounting as React likes to call it
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 
