@@ -1,1 +1,23 @@
 https://javatechonline.com/how-to-implement-feign-client-in-spring-boot-microservices/
+=======================================================================================
+20-03-2024:
+***********
+Abstract methods:
+----------------
+Abstract methods defined in an interface must be overridden by any class that implements that interface.
+
+Default Method:
+---------------
+Introduced in Java 8.
+Provides a default implementation within the interface itself.
+Can be overridden by classes implementing the interface.
+Intended primarily for backward compatibility and adding new functionality to interfaces without breaking existing implementations.
+
+Concrete Method:
+----------------
+Introduced in Java 9.
+Provides a complete implementation within the interface itself.
+Cannot be overridden by implementing classes.
+Mainly used to prevent code duplication across multiple default methods within the same interface.
+
+Note: Default methods can be overridden, while concrete methods cannot.

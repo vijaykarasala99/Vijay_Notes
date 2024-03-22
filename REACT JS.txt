@@ -202,7 +202,7 @@ in your project directory
 
 >Components are independent and reusable blocks of code.
 
->Props(Properties) are used to pass data from one component to another.
+>Props(Properties) are used to pass data from parent component to child component , Props are immutable, meaning they cannot be changed by the child component.
  The state is local data storage that is local to the component only and cannot be passed to other components.
 
 >React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application
