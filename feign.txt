@@ -1,5 +1,6 @@
 https://javatechonline.com/how-to-implement-feign-client-in-spring-boot-microservices/
 =======================================================================================
+
 20-03-2024:
 ***********
 Abstract methods:
